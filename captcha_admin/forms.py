@@ -1,6 +1,4 @@
-from django.contrib.admin.forms import (
-    AdminAuthenticationForm as _AdminAuthenticationForm
-)
+from django.contrib.admin.forms import AdminAuthenticationForm as _AdminAuthenticationForm
 
 from captcha.fields import ReCaptchaField
 
