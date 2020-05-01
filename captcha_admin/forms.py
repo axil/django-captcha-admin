@@ -6,4 +6,4 @@ from captcha.fields import ReCaptchaField
 
 
 class AdminAuthenticationForm(_AdminAuthenticationForm):
-    captcha = ReCaptchaField(attrs={'theme': 'clean'})
+    captcha = ReCaptchaField()
