@@ -1,12 +1,9 @@
-VERSION = (0, 2, 0, 'final', 0)
-
+VERSION = (1, 0, 0, 'final', 0)
 __author__ = u'Daniel Barreto'
-
-
 __license__ = u'MIT'
-__maintainer__ = u'Daniel Barreto'
-__email__ = 'daniel.barreto.n@gmail.com'
-__status__ = 'Beta'
+__maintainer__ = u'Micah Mangione'
+__email__ = 'micah@connectio.us'
+__status__ = 'RC'
 
 def get_version(version=VERSION):
     "Returns a PEP 386-compliant version number from VERSION."
